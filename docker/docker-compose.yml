@@ -1,4 +1,4 @@
-version : "3.9"
+version: "3.9"
 
 services:
 
@@ -15,8 +15,8 @@ services:
 
   db:
     image: postgres
-    enviroment:
-      POSTGRES:DB: pulso
+    environment:
+      POSTGRES_DB: pulso
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
 
